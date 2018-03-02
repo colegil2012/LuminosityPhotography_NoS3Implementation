@@ -1,0 +1,13 @@
+<div class="margin">
+    {{# each photos }}
+        <div class="row">
+            {{# each this }}
+                <div class="col-xs-4 col-md-3">
+                    <a href=" {{this.imagePath}} " class="thumbnail">
+                        <img src=" {{this.imagePath}} " alt="{{this.description}}">
+                    </a>
+                </div>
+            {{/each}}
+        </div>
+    {{/each}}
+</div>

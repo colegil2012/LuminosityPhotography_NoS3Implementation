@@ -1,0 +1,337 @@
+body,html {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding: 25px 0 0 0;
+  background-image: url("https://s3.amazonaws.com/luminositypicsalbum/Asset/background.jpg");
+  background-size: cover;
+}
+
+
+header {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  float: left;
+  width: 95%;
+  border: 5px solid #555;
+  box-shadow: -10px 10px 30px #007a99;
+}
+
+.margin {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 75px;
+}
+
+
+/*************************************
+**Page heading, nav bar, and footer***
+*************************************/
+
+
+.page-header img {
+  height: 250px;
+  float: left;
+  padding-left: 5em;
+}
+
+.page-header {
+
+  background-image: linear-gradient(180deg, transparent -100%, #1affc6), url("https://s3.amazonaws.com/luminositypicsalbum/Asset/ParkPan.jpg");
+  background-size: cover;
+  text-shadow: 2px 2px 10px #000;
+  margin: 0;
+  float: left;
+  width: 100%;
+  line-height: 1;
+}
+/*
+.page-header h1 {
+  color: white;
+  padding: 30px 0 0 40px;
+  font-size: 4.5em;
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+.page-header h3 {
+  padding-bottom: 15px;
+  padding-left: 60px;
+  font-size: 1.5em;
+  color: white;
+  font-family: "Poiret One", cursive;
+}
+*/
+
+.page-header a {
+  text-decoration: none;
+}
+
+.page-header .nav {
+  padding-top: 15em;
+  float: right;
+  text-shadow: none;
+  color: white;
+
+}
+
+.page-header .nav ul {
+  list-style-type: none;
+}
+
+.page-header .nav ul li {
+  display: inline;
+  padding-right: 40px;
+  font-family: "Dancing Script", cursive;
+
+  text-shadow: 2px 0 0 #009973, -2px 0 0 #009973, 0 2px 0 #009973, 0 -2px 0 #009973, 1px 1px #009973, -1px -1px 0 #009973, 1px -1px 0 #009973, -1px 1px 0 #009973;
+  font-size: 1.25em;
+}
+
+.page-header .nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.page-header .nav ul a:hover {
+
+  text-shadow: 2px 0 0 #00e6ac, -2px 0 0 #00e6ac, 0 2px 0 #00e6ac, 0 -2px 0 #00e6ac, 1px 1px #00e6ac, -1px -1px 0 #00e6ac, 1px -1px 0 #00e6ac, -1px 1px 0 #00e6ac;
+}
+
+
+/**********************************************
+**********Portfolio image and effects**********
+**********************************************/
+
+
+.thumbnail {
+  margin-top: 75px;
+  position: relative;
+  box-shadow: -10px 10px 30px #007a99;
+}
+
+.galleryOverlay {
+  position: absolute;
+  top: 0px;
+  left: 10%;
+  bottom: 150px;
+  right: 10%;
+  width: 80%;
+  float: right;
+  background-image: linear-gradient(180deg, transparent -100%, #1affc6), url("https://s3.amazonaws.com/luminositypicsalbum/Asset/ParkPan.jpg");
+  background-size: cover;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 3px solid #555555;
+  border-top: none;
+  height: 20%;
+  display: none;
+  opacity: 1;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.galleryOverlay h1 {
+  color: white;
+  font-size: 2em;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+}
+
+.image-container {
+  text-align: center;
+}
+
+
+/**********************************************
+*************About image and effects***********
+**********************************************/
+
+.bioImage {
+  max-height: 35em;
+  border-radius: 90%;
+  box-shadow: -10px 10px 30px #007a99;
+
+}
+
+.about-text-container {
+  text-align: center;
+  float: right;
+  margin: 12em 15em 10em 0em;
+  padding: 1em;
+  width: 40%;
+  background-image: linear-gradient(180deg, transparent -100%, #00b8e6), url("https://s3.amazonaws.com/luminositypicsalbum/Asset/Park_edited.jpg");
+  background-size: cover;
+  box-shadow: -10px 10px 30px #007a99;
+  border-radius: 50px;
+
+}
+
+.about-text-container p {
+  font-size: 25px;
+  font-family: "Poiret One", cursive;
+  color: white;
+}
+
+.about-image-container {
+  margin-top: 10em;
+  text-align: center;
+  margin-bottom: 5em;
+  width: 40%;
+}
+
+.about-text-container2 {
+  clear: both;
+  text-align: center;
+  float: left;
+  margin: 10em 8em 10em 5em;
+  padding: 1em;
+  width: 40%;
+  background-image: linear-gradient(180deg, transparent -100%, #00b8e6), url("https://s3.amazonaws.com/luminositypicsalbum/Asset/Park_edited.jpg");
+  background-size: cover;
+  box-shadow: -10px 10px 30px #007a99;
+  border-radius: 50px;
+
+}
+
+.about-text-container2 p {
+  font-size: 25px;
+  font-family: "Poiret One", cursive;
+  color: white;
+}
+
+.about-image-container2 {
+  float: right;
+  margin-top: 5em;
+  text-align: center;
+  margin-bottom: 5em;
+  width: 40%;
+}
+
+/**********************************************
+***********Contact image and effects***********
+**********************************************/
+
+.contact-header h1 {
+  color: white;
+  padding: 0.75em;
+  font-size: 4.5em;
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+.contact-header p {
+  color: white;
+}
+
+.contact-p {
+  padding-bottom: 1em;
+  font-size: 20px;
+  font-family: "Poiret One", cursive;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.contact-div {
+  margin-right: 25em;
+  margin-left: 25em;
+}
+
+.contact-header {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  text-align: center;
+  text-shadow: 2px 2px 10px #000;
+  background-image: linear-gradient(180deg, transparent -100%, #1affc6), url("https://s3.amazonaws.com/luminositypicsalbum/Asset/Neptune_Sundial_edited.jpg");
+  background-size: cover;
+  border-radius: 50px;
+  box-shadow: -10px 10px 30px #007a99;
+}
+
+
+.contact-table {
+  margin-top: 3em;
+  text-align: left;
+  margin-bottom: 10em;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 50px;
+  background-image: linear-gradient(180deg, transparent -100%, #00b8e6), url("https://s3.amazonaws.com/luminositypicsalbum/Asset/coffeePhone.jpg");
+  background-size: cover;
+  box-shadow: -10px 10px 30px #007a99;
+}
+
+.contact-table table {
+  width: 100%;
+}
+
+.contact-table td {
+  height: 75px;
+  padding: 20px;
+  font-size: 1.5em;
+  color: white;
+  font-family: "Poiret One", cursive;
+  text-shadow: 2px 0 0 #007a99, -2px 0 0 #007a99, 0 2px 0 #007a99, 0 -2px 0 #007a99, 1px 1px #007a99, -1px -1px 0 #007a99, 1px -1px 0 #007a99, -1px 1px 0 #007a99;
+}
+
+.icon-td {
+  width: 25%;
+}
+
+.icon-td-click {
+  width: 25%;
+}
+
+.link-td {
+  width: 75%;
+  text-align: left;
+}
+
+.contact-table td a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-table td a:hover {
+  text-shadow: 2px 0 0 #1ad1ff, -2px 0 0 #1ad1ff, 0 2px 0 #1ad1ff, 0 -2px 0 #1ad1ff, 1px 1px #1ad1ff, -1px -1px 0 #1ad1ff, 1px -1px 0 #1ad1ff, -1px 1px 0 #1ad1ff;
+}
+
+
+
+
+/**********************************************
+***********Footer image and effects***********
+**********************************************/
+
+.footer {
+  background: linear-gradient(180deg, transparent -100%, #1affc6);
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  /*border-top: 5px solid #555;*/
+  position: fixed;
+  bottom: 0;
+}
+
+.footer h3 {
+  font-size: 1.5em;
+  color: white;
+  font-family: "Poiret One", cursive;
+  text-shadow: 2px 0 0 #009973, -2px 0 0 #009973, 0 2px 0 #009973, 0 -2px 0 #009973, 1px 1px #009973, -1px -1px 0 #009973, 1px -1px 0 #009973, -1px 1px 0 #009973;
+}
+
+.icon {
+  max-height: 25px;
+  margin-right: 10px;
+}
+
+.icon-click {
+  max-height: 25px;
+  margin-right: 10px;
+}
+
+.icon-click:hover {
+  box-shadow: 0px 0px 1px 2px #f2e1f2;
+}
+

@@ -1,0 +1,16 @@
+<div class="margin">
+    {{# each photos }}
+        <div class="row">
+            {{# each this }}
+                <div class="col-xs-6 col-md-4">
+                        <a href=" {{this.anchor}} " class="thumbnail" id = "gallery{{this.galleryNum}}Cover">
+                            <img src=" {{this.imagePath}} " alt="{{this.description}}">
+                            <div id = "gallery{{this.galleryNum}}Overlay" class="galleryOverlay">
+                                <h1 class = 'galleryText'>{{ this.galleryName }}</h1>
+                            </div>
+                        </a>
+                </div>
+            {{/each}}
+        </div>
+    {{/each}}
+</div>
