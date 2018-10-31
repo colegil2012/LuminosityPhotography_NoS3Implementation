@@ -9,7 +9,7 @@ router.get('/gallery1', function(req, res, next) {
         for (var i = 0; i < docs.length; i += chunkSize) {
             photoChunks.push(docs.slice(i, i + chunkSize));
         }
-        res.render('photoSite/galleries/gallery1', {title: 'Brittany Gilbert | Gallery 1' , photos: photoChunks });
+        res.render('photoSite/galleries/gallery1', {title: 'Luminosity Photography | Gallery 1' , photos: photoChunks });
     });
 });
 
