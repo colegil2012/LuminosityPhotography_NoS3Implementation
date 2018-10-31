@@ -19,7 +19,7 @@ var gallery4 = require('./routes/galleries/gallery4');
 
 var app = express();
 
-mongoose.connect('localhost:27017/photography');
+mongoose.connect('localhost:27017/photography2');
 
 // view engine setup
 app.engine('.hbs', expressHbs({defaultLayout: 'layout', extname: '.hbs'}));

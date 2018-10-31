@@ -4,12 +4,12 @@
 var Photo = require('../models/photo');
 var mongoose = require('mongoose');
 
-mongoose.connect('localhost:27017/photography');
+mongoose.connect('localhost:27017/photography2');
 
 
 var photos = [
     new Photo({
-        imagePath: 'https://s3.amazonaws.com/luminositypicsalbum/Gallery1/_KJ1+(1).jpg',
+        imagePath: '/images/Gallery1/_KJ1 (1).jpg',
         galleryNum: 1,
         description: 'K & J Engagement Photos #1',
         anchor: '/gallery1',
@@ -17,7 +17,7 @@ var photos = [
         galleryName: "K & J Engagement"
     }),
     new Photo({
-        imagePath: 'https://s3.amazonaws.com/luminositypicsalbum/Gallery1/_KJ1+(2).jpg',
+        imagePath: '/images/Gallery1/_KJ1 (2).jpg',
         galleryNum: 1,
         description: 'K & J Engagement Photos #2',
         anchor: '/gallery1',
@@ -25,7 +25,7 @@ var photos = [
         galleryName: "K & J Engagement"
     }),
     new Photo({
-        imagePath: 'https://s3.amazonaws.com/luminositypicsalbum/Gallery1/_KJ1+(3).jpg',
+        imagePath: '/images/Gallery1/_KJ1 (3).jpg',
         galleryNum: 1,
         description: 'K & J Engagement Photos #3',
         anchor: '/gallery1',
@@ -33,7 +33,7 @@ var photos = [
         galleryName: "K & J Engagement"
     }),
     new Photo({
-        imagePath: 'https://s3.amazonaws.com/luminositypicsalbum/Gallery1/_KJ1+(4).jpg',
+        imagePath: '/images/Gallery1/_KJ1 (4).jpg',
         galleryNum: 1,
         description: 'K & J Engagement Photos #4',
         anchor: '/gallery1',
@@ -41,7 +41,7 @@ var photos = [
         galleryName: "K & J Engagement"
     }),
     new Photo({
-        imagePath: 'https://s3.amazonaws.com/luminositypicsalbum/Gallery1/_KJ1+(5).jpg',
+        imagePath: '/images/Gallery1/_KJ1 (5).jpg',
         galleryNum: 1,
         description: 'K & J Engagement Photos #5',
         anchor: '/gallery1',
@@ -49,7 +49,7 @@ var photos = [
         galleryName: "K & J Engagement"
     }),
     new Photo({
-        imagePath: 'https://s3.amazonaws.com/luminositypicsalbum/Gallery1/_KJ1+(6).jpg',
+        imagePath: '/images/Gallery1/_KJ1 (6).jpg',
         galleryNum: 1,
         description: 'K & J Engagement Photos #6',
         anchor: '/gallery1',
@@ -57,7 +57,7 @@ var photos = [
         galleryName: "K & J Engagement"
     }),
     new Photo({
-        imagePath: 'https://s3.amazonaws.com/luminositypicsalbum/Gallery1/_KJ1+(7).jpg',
+        imagePath: '/images/Gallery1/_KJ1 (7).jpg',
         galleryNum: 1,
         description: 'K & J Engagement Photos #7',
         anchor: '/gallery1',
@@ -65,7 +65,7 @@ var photos = [
         galleryName: "K & J Engagement"
     }),
     new Photo({
-        imagePath: 'https://s3.amazonaws.com/luminositypicsalbum/Gallery1/_KJ1+(8).jpg',
+        imagePath: '/images/Gallery1/_KJ1 (8).jpg',
         galleryNum: 1,
         description: 'K & J Engagement Photos #8',
         anchor: '/gallery1',
@@ -73,7 +73,7 @@ var photos = [
         galleryName: "K & J Engagement"
     }),
     new Photo({
-        imagePath: 'https://s3.amazonaws.com/luminositypicsalbum/Gallery1/_KJ1+(9).jpg',
+        imagePath: '/images/Gallery1/_KJ1 (9).jpg',
         galleryNum: 1,
         description: 'K & J Engagement Photos #9',
         anchor: '/gallery1',
@@ -81,7 +81,7 @@ var photos = [
         galleryName: "K & J Engagement"
     }),
     new Photo({
-        imagePath: 'https://s3.amazonaws.com/luminositypicsalbum/Gallery1/_KJ1+(10).jpg',
+        imagePath: '/images/Gallery1/_KJ1 (10).jpg',
         galleryNum: 1,
         description: 'K & J Engagement Photos #10',
         anchor: '/gallery1',
